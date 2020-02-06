@@ -1,4 +1,4 @@
-# The nextjs starter
+# The Nextjs starter
 Hopefully the last one you'll need 😉
 
 ## Features
