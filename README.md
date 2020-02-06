@@ -16,6 +16,7 @@ Hopefully the last one you'll need 😉
 git clone https://github.com/novellito/the-nextjs-starter my-project
 cd my-project
 npm install
+npm start
 ```
 
 The app will run at `http://localhost:3000`
