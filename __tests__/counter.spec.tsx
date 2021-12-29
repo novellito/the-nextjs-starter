@@ -9,7 +9,7 @@ function renderWithRedux(ui: JSX.Element) {
   const store = createStore(rootReducer);
   return {
     ...render(<Provider store={store}>{ui}</Provider>),
-    store
+    store,
   };
 }
 
