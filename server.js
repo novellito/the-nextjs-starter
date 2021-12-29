@@ -12,16 +12,16 @@ const devProxy = {
   '/api': {
     target: 'http://localhost:5000/api',
     pathRewrite: { '^/api': '/' },
-    changeOrigin: true
-  }
+    changeOrigin: true,
+  },
 };
 
 const prodProxy = {
   '/api': {
     target: '/api',
     pathRewrite: { '^/api': '/' },
-    changeOrigin: true
-  }
+    changeOrigin: true,
+  },
 };
 
 app
@@ -29,22 +29,23 @@ app
   .then(() => {
     const server = express();
 
-    const proxyMiddleware = require('http-proxy-middleware');
+    const { createProxyMiddleware } = require('http-proxy-middleware');
+
     if (dev && devProxy) {
-      server.use(proxyMiddleware('/api', devProxy['/api']));
+      server.use(createProxyMiddleware('/api', devProxy['/api']));
     } else {
-      server.use(proxyMiddleware('/api', prodProxy['/api']));
+      server.use(createProxyMiddleware('/api', prodProxy['/api']));
     }
 
     // Default catch-all handler to allow Next.js to handle all other routes
     server.all('*', (req, res) => handle(req, res));
 
-    server.listen(PORT, err => {
+    server.listen(PORT, (err) => {
       if (err) throw err;
       console.log(`> Ready on port ${PORT}`);
     });
   })
-  .catch(err => {
+  .catch((err) => {
     console.log('An error occurred, unable to start the server');
     console.log(err);
   });
