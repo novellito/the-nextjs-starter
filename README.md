@@ -4,17 +4,17 @@ Hopefully the last one you'll need 😉
 ## Features
 - ▲ Uses the latest [Next.js](https://github.com/zeit/next.js) along with [typescript](https://www.typescriptlang.org/)
 - 🎉 Icons from [fontawesome](https://fontawesome.com/) using [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
-- 🔮 State management with [redux](https://github.com/reactjs/redux) & [react-redux](https://github.com/reactjs/react-redux)
-- 💅 Styling with [styled-components](https://github.com/styled-components/styled-components)
+- 💅 🌀 Styling with [styled-components](https://github.com/styled-components/styled-components) and [tailwind-css](https://tailwindcss.com/)
 - 🐐 Unit testing with [react-testing-library](https://github.com/testing-library/react-testing-library)
 
+## Getting Started
 
-## Getting started
-```
-git clone https://github.com/novellito/the-nextjs-starter my-project
-cd my-project
-npm install
-npm start
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
