@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Nextjs starter
+Hopefully the last one you'll need 😉
+
+## Features
+- ▲ Uses the latest [Next.js](https://github.com/zeit/next.js) along with [typescript](https://www.typescriptlang.org/)
+- 🎉 Icons from [fontawesome](https://fontawesome.com/) using [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+- 💅 🌀 Styling with [styled-components](https://github.com/styled-components/styled-components) and [tailwind-css](https://tailwindcss.com/)
+- 🐐 Unit testing with [react-testing-library](https://github.com/testing-library/react-testing-library)
+- ✏️ Static code analysis with [eslint](https://eslint.org/)
+
 
 ## Getting Started
 
@@ -32,3 +41,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Misc
+If for some reason you'd like to see the original project, please check the `archive` branch.
