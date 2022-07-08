@@ -6,8 +6,6 @@ Hopefully the last one you'll need 😉
 - 🎉 Icons from [fontawesome](https://fontawesome.com/) using [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
 - 💅 🌀 Styling with [styled-components](https://github.com/styled-components/styled-components) and [tailwind-css](https://tailwindcss.com/)
 - 🐐 Unit testing with [react-testing-library](https://github.com/testing-library/react-testing-library)
-- ✏️ Static code analysis with [eslint](https://eslint.org/)
-
 
 ## Getting Started
 
@@ -43,4 +41,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Misc
-If for some reason you'd like to see the original project, please check the `archive` branch.
+If for some reason you'd like to see the original project, please check the [archive](https://github.com/novellito/the-nextjs-starter/tree/archive) branch.
+
+If you're coming back to this project and wondering why things changed - please see this [PR](https://github.com/novellito/the-nextjs-starter/pull/6)
