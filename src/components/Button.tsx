@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 const ButtonWrapper = styled.button`
-  color: teal;
-  font-size: 2em;
+  /* if you want to use styled components :) */
 `;
 
 interface ButtonProps {
@@ -11,7 +10,14 @@ interface ButtonProps {
 }
 
 export const Button = (props: ButtonProps) => {
-  return <ButtonWrapper onClick={props.click}>{props.text}</ButtonWrapper>;
+  return (
+    <ButtonWrapper
+      onClick={props.click}
+      className="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm"
+    >
+      {props.text}
+    </ButtonWrapper>
+  );
 };
 
 export default Button;
