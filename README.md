@@ -42,3 +42,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Misc
 If for some reason you'd like to see the original project, please check the [archive](https://github.com/novellito/the-nextjs-starter/tree/archive) branch.
+
+If you're coming back to this project and wondering why things changed - please see this [PR](https://github.com/novellito/the-nextjs-starter/pull/6)
