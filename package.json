@@ -30,7 +30,7 @@
     "@types/styled-components": "^5.1.25",
     "autoprefixer": "^10.4.7",
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0",
+    "eslint-config-next": "13.1.1",
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",
     "postcss": "^8.4.14",
